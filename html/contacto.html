@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--David Augello Exposito-->
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestro Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../favicon.jpg">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>La Web de las Artes</h1>
+        </div>
+        <div>
+            <h1>SECCIÓN: Contáctanos</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="cine.html">Cine</a></li>
+                <li><a href="generosLiterarios.html">Géneros Literarios</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Introduce tu nombre..." required>
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" placeholder="Introduce tu apellido..." required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="usuario@ejemplo.com" required>
+                </div>
+                <div>
+                    <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha-nacimiento" required>
+                </div>
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="0" required>
+                </div>
+                <div>
+                    <label>Sexo:</label>
+                    <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="sexo" value="mujer">
+                    <label for="mujer">Mujer</label>
+                </div>
+                <div>
+                    <label for="pais">País:</label>
+                    <select id="pais" required>
+                        <option value="">- Selecciona -</option>
+                        <option value="es">España</option>
+                        <option value="mx">México</option>
+                        <option value="ar">Argentina</option>
+                        <option value="co">Colombia</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>Otros Datos</legend>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea placeholder="Introduce tu mensaje..."></textarea>
+                </div>
+                <div>
+                    <p>Adjunta una foto... <input type="file" id="mensaje"></p>
+                </div>
+            </fieldset>
+            <div>
+                <input type="checkbox" id="condiciones" required>
+                <label for="condiciones">He leído las condiciones ...</label>
+            </div>
+            <div>
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="reference-map">
+        <h2>Centro de referencia</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.779292029681!2d-16.285825788325905!3d28.456068891970084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1708044576541!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <hr>
+    <footer>
+        <a href="../html/contacto.html">Inicio</a>
+    </footer>
+</body>
+</html>
